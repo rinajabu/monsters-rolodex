@@ -32,7 +32,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        {/* e => this.setState({ searchField: e.target.value }, () => console.log(this.state)) */}
+        <h1>Monsters Rolodex</h1>
         <SearchBox 
           placeholder='search monsters' 
           handleChange={this.handleChange}
